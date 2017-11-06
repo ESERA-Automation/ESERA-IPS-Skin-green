@@ -1,0 +1,31 @@
+/* Logo austauschen */
+.ipsLogin>.logo {
+	background-image: url(logo.svg);
+	margin-left: -74px;
+	margin-top: -160px;
+	background-size: initial;
+	height: 80px;
+	width: 180px;
+}
+
+/* Farbe verändern */
+.ipsLogin {
+	background-color: #60A642;
+}
+
+.ipsWebFront {
+	background-color: #60A642;
+}
+
+.ipsTabPane>.navigation {
+	background-color: #4A8033;
+
+}
+
+.ipsCategory>.container {
+	background-color: #4A8033;
+}
+
+.ipsDialog>div {
+	background: rgba(30,30,30,0.9);
+}
