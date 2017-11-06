@@ -1,7 +1,7 @@
 ESERA-Automation für IP-Symcon WebFront
 * Copyright ESERA, E-Service GmbH 2017
 
-* Größe: 1kB
+* Größe: 248kB
 * Farbton: ESERA Grün
 
 * Buttons haben eine Mindestbreite von 50px
