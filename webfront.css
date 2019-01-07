@@ -77,8 +77,7 @@ div.ipsWebFront {
 	padding: 18px 0 0 25px; }
 
 .ipsPanel >.container {
-	//color: #747474;
-	color: #4A8033;
+	color: #747474;
 	background: #ffffff;
 	box-shadow: 5px 7px 5px -5px rgb(182, 182, 182); }
 	
@@ -103,7 +102,7 @@ div.ipsWebFront {
 /* reset container background */
 .ipsContainer.container{
 	background: #fff;
-	border-right: none; }
+	border-right: 4A8033; }
 	
 .ipsContainer.container.hasChildren.nestedEven ,
 .ipsContainer.container.hasChildren.nestedEven > .childContainers{
@@ -133,10 +132,10 @@ div.ipsWebFront {
 
 .ipsChart,
 .ipsChartDialog .content .ipsContainer {
-  -webkit-animation-name: none !important;
-  -moz-animation-name: none !important;
-  -ms-animation-name: none !important;
-  animation-name: none !important; }
+  -webkit-animation-name: 4A8033 !important;
+  -moz-animation-name: 4A8033 !important;
+  -ms-animation-name: 4A8033 !important;
+  animation-name: 4A8033 !important; }
   
 
 /* instead of opacity use highlight colour */
@@ -155,12 +154,12 @@ div.ipsWebFront {
 .ipsVariable > .content > .visual > .enum > div {
     min-width: 0!important;
     padding: 0 8px!important;
-	background: none!important;
+	background: 4A8033!important;
 	color: #555!important; }
 
 .ipsVariable > .content > .visual > .selector > div.selected ,
 .ipsVariable > .content > .visual > .enum > div.selected {
-    background: none!important;
+    background: 4A8033!important;
 	color: #3aa9ff!important; }
 
 .ipsVariable > .content > .visual > .selector.overflowing > div.selected ,
@@ -174,8 +173,7 @@ div.ipsWebFront {
 .ipsNotifications>.ipsNotification>.message {
 	background-color: #efefef!important;
     border-radius: 0!important;
-    //color: #747474!important;
-	color: #4A8033!important;
+    color: #747474!important;
 	box-shadow: 5px 7px 5px -5px rgb(182, 182, 182); }
 
 
@@ -204,9 +202,8 @@ div.ipsWebFront {
 .ipsDialog	> div {
 	background-color: white!important;
     border-radius: 0!important;
-    border: none;
-    //color: #747474!important;
-	color: #4A8033!important;
+    border: 4A8033;
+    color: #747474!important;
 	box-shadow: 5px 7px 5px -5px rgb(182, 182, 182); }
 .ipsDialog	> div,	
 .ipsNotification {
@@ -225,7 +222,7 @@ div.ipsWebFront {
 
 /* ipsSchedule Dialog */
 .ipsDialog.ipsEventDialog>div>.content>.outerCenter>.center>.linesContainer>.touchContainer>.sliderContainer>.slider {
-	background-image: none;
+	background-image: 4A8033;
 	opacity: 0.6; }	
 
 .ipsDialog.ipsEventDialog>div>.content>.outerCenter>.center>.linesContainer>.touchContainer>.sliderContainer>.slider:hover {
@@ -270,7 +267,7 @@ div.ipsWebFront {
 
 /* FIXME: how to style save dialog  */
 .ipsDialog.ipsCirclesliderDialog .backgroundStripesCircle {
-	fill: none;
+	fill: 4A8033;
 	stroke: #a5a5a5; }
 .ipsDialog.ipsCirclesliderDialog .backgroundCircle {
 	fill: white;
@@ -290,8 +287,7 @@ div.ipsWebFront {
 /* Slider */
 .ipsVariable  > .content > .visual > .slider > div > div.background {
 	height: 1px;
-    //border-top: 1px solid #747474;  
-	border-top: 1px solid #4A8033;	
+    border-top: 1px solid #747474;  
     margin-top: 7px!important;
 	left: 20px!important;
     right: 0!important;
@@ -315,30 +311,26 @@ div.ipsWebFront {
 	
 /* Colored */
 .ipsCategory>.container .content .visual>.text.colored  {
-		background-image: none!important; }
+		background-image: 4A8033!important; }
 
 /* Graph Workarround, this sould be white! */
 html body .ipsDialog.ipsChartDialog > div {
-    background-color: #4A8033!important; }
-	//background-color: #747474!important; }		
+	background-color: #747474!important; }		
 	
 /* edit Text */
 .ipsCategory>.container .content .visual>.text>input[type=text] {
-	color: #4A8033;
-	//color: #747474; 
+	color: #747474; 
 	font-size: 16px; }
 	
 /* Editor */
 .ipsEditorDialog > div > div.content  select,
 .ipsEditorDialog > div > div.content input{
-	color: #4A8033!important;
-	//color: #747474!important;
+	color: #747474!important;
     border: solid 1px black!important; }
 	
 .ipsEditorDialog > div > div.content  select option {
 	background-color: #e5e5e5!important;
-	color: #4A8033!important;
-	//color: #747474!important;
+    color: #747474!important;
 	box-shadow: 0px 7px 5px -5px rgb(182, 182, 182)!important; }
 
 .ipsWebFront.editable>.new, 
@@ -346,9 +338,8 @@ html body .ipsDialog.ipsChartDialog > div {
 .ipsSplitPane.editable>.bottom>.new, 
 .ipsSplitPane.editable>.left>.new, 
 .ipsSplitPane.editable>.right>.new {
-    background: none!important;
-    border-color: #4A8033!important; }
-	//border-color: #747474!important; }
+    background: 4A8033!important;
+	border-color: #747474!important; }
 
 .ipsSplitPane.editable .new > .new-middle > .new-text {
 	margin: 0 auto;
@@ -359,11 +350,11 @@ margin-top: 5px; }
 	
 /* remove border between panes */
 .ipsSplitPane.border>.left {
-	border: none; }	
+	border: 4A8033; }	
 
 /* prevent doubled shadow when having a tab pane inside a tab pane */
 .ipsTabPane>.content {
-	background-image: none; }
+	background-image: 4A8033; }
 
 .ipsDialog.ipsChartDialog>div>.topRightBox>div {
 	color: black; }
@@ -383,7 +374,7 @@ div.ipsChart>svg>g.grid>line.gridLine {
     stroke: #606060; }
 .ipsChart .ipsLegend {
     background-color: rgba(200, 200, 200, 0.6);
-    border: none;
+    border: 4A8033;
     z-index: 10; }
 .ipsChartPanel {
 	background: white;
@@ -393,9 +384,9 @@ div.ipsChart>svg>g.grid>line.gridLine {
 	margin-top: -5px; }
 div.ipsChart>svg.line>g.graphs>g.point>g>circle {
 	fill: black;
-	stroke: none; }
+	stroke: 4A8033; }
 div.ipsChart>svg>g.graphs>g.outline>g>path {
-    fill: none;
+    fill: 4A8033;
     stroke: black; }
 div.ipsChart>svg>g.graphs>g.background>g>path {
 	fill: grey;
@@ -404,8 +395,8 @@ div.ipsChart>svg>g.graphs>g.background>g>path {
 .ipsCategory>.container .extended>.textBox, 
 .ipsCategory>.container .extended>.htmlBox, 
 .ipsCategory>.container .extended>.mailBox {
-    background: none;
-    border: none;
+    background: 4A8033;
+    border: 4A8033;
     padding: 5px; }
 
 .draggable {
@@ -425,7 +416,7 @@ div.ipsPanel.ipsDWDReport,
     box-shadow: 5px 7px 5px -5px rgb(182, 182, 182);  }
 
 .ipsDWDImage {
-    background: none;
+    background: 4A8033;
     margin-right: -30px; }
 
 div.ipsPanel.ipsDWDReport {
@@ -460,15 +451,15 @@ div.ipsPanel.ipsDWDReport .title {
 	height: 50%; }
 	
 .ipsLogin>.content>.configurators {
-	background: none;a
-    border: none;
+	background: 4A8033;a
+    border: 4A8033;
     padding: 0;
     margin: 0;
     height: 100%; }
 
 .ipsLogin>.content>.configurators>div {
 	background-color: white;
-    border: none;
+    border: 4A8033;
     box-shadow: 5px 7px 5px -5px rgb(182, 182, 182);
     margin: 0px 5%;
     width: 200px;
@@ -562,7 +553,7 @@ div.ipsPanel.ipsDWDReport .title {
  *
  */
 .ipsWebFront.editable>.save {
-	border: none;
+	border: 4A8033;
 	background-color: #3aa9ff;
 	background-image: url(/img/icons/Ok.svg); }
 	
