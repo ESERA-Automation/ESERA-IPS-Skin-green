@@ -77,7 +77,8 @@ div.ipsWebFront {
 	padding: 18px 0 0 25px; }
 
 .ipsPanel >.container {
-	color: #747474;
+	//color: #747474;
+	color: #4A8033;
 	background: #ffffff;
 	box-shadow: 5px 7px 5px -5px rgb(182, 182, 182); }
 	
@@ -173,7 +174,8 @@ div.ipsWebFront {
 .ipsNotifications>.ipsNotification>.message {
 	background-color: #efefef!important;
     border-radius: 0!important;
-    color: #747474!important;
+    //color: #747474!important;
+	color: #4A8033!important;
 	box-shadow: 5px 7px 5px -5px rgb(182, 182, 182); }
 
 
@@ -203,7 +205,8 @@ div.ipsWebFront {
 	background-color: white!important;
     border-radius: 0!important;
     border: none;
-    color: #747474!important;
+    //color: #747474!important;
+	color: #4A8033!important;
 	box-shadow: 5px 7px 5px -5px rgb(182, 182, 182); }
 .ipsDialog	> div,	
 .ipsNotification {
@@ -287,7 +290,8 @@ div.ipsWebFront {
 /* Slider */
 .ipsVariable  > .content > .visual > .slider > div > div.background {
 	height: 1px;
-    border-top: 1px solid #747474;
+    //border-top: 1px solid #747474;  
+	border-top: 1px solid #4A8033;	
     margin-top: 7px!important;
 	left: 20px!important;
     right: 0!important;
@@ -315,22 +319,26 @@ div.ipsWebFront {
 
 /* Graph Workarround, this sould be white! */
 html body .ipsDialog.ipsChartDialog > div {
-    background-color: #747474!important; }		
+    background-color: #4A8033!important; }
+	//background-color: #747474!important; }		
 	
 /* edit Text */
 .ipsCategory>.container .content .visual>.text>input[type=text] {
-	color: #747474; 
+	color: #4A8033;
+	//color: #747474; 
 	font-size: 16px; }
 	
 /* Editor */
 .ipsEditorDialog > div > div.content  select,
 .ipsEditorDialog > div > div.content input{
-	color: #747474!important;
+	color: #4A8033!important;
+	//color: #747474!important;
     border: solid 1px black!important; }
 	
 .ipsEditorDialog > div > div.content  select option {
 	background-color: #e5e5e5!important;
-	color: #747474!important;
+	color: #4A8033!important;
+	//color: #747474!important;
 	box-shadow: 0px 7px 5px -5px rgb(182, 182, 182)!important; }
 
 .ipsWebFront.editable>.new, 
@@ -339,7 +347,8 @@ html body .ipsDialog.ipsChartDialog > div {
 .ipsSplitPane.editable>.left>.new, 
 .ipsSplitPane.editable>.right>.new {
     background: none!important;
-    border-color: #747474!important; }
+    border-color: #4A8033!important; }
+	//border-color: #747474!important; }
 
 .ipsSplitPane.editable .new > .new-middle > .new-text {
 	margin: 0 auto;
@@ -438,9 +447,13 @@ div.ipsPanel.ipsDWDReport .title {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100px;
-    margin-left: -200px;
-    margin-top: -100px;
-    width: 400px; }
+	height: 80px;
+	margin-left: -74px;
+	margin-top: -160px;
+	width: 180px;
+    //margin-left: -200px;
+    //margin-top: -100px;
+    //width: 400px; }
 
 .ipsLogin>.content {
 	margin: 0;
