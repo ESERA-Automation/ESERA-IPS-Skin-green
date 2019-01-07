@@ -1,10 +1,10 @@
-GreenSkin für IP-Symcon WebFront
+ESERA-Automation für IP-Symcon WebFront
+* Copyright ESERA, E-Service GmbH 2017
 
-Version 1.0  
+* Größe: 248kB
+* Farbton: ESERA Grün
 
-* Benötigt: IP-Symcon 5.0 oder neuer
-* Größe: 7.0 MB
-* Farbton: grün/grau
+* Buttons haben eine Mindestbreite von 50px
+* Text in Buttons wird mittig zentriert
 
-Icons Copyright: Symcon GmbH
-Die Icons sind ausschließlich für die Nutzung in diesem Skin bestimmt. Die Verbreitung, Bearbeitung, oder Nutzung der Icons außerhalb dieses Skins ist ausdrücklich untersagt.
+Icons Copyright: Martz90 (http://martz90.deviantart.com/art/Circle-Icons-Pack-371172325)
